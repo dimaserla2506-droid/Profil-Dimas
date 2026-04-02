@@ -1,5 +1,8 @@
+body {
+  background-color: #334155;
+}
 header {
-  background-color: #0f172a;   /* hitam gelap */
+  background-color: #020304;   /* hitam gelap */
   padding: 16px 24px;          /* atas-bawah 16px, kiri-kanan 24px */
   margin-bottom: 24px;         /* jarak ke konten di bawahnya */
   border-radius: 12px;         /* sudut membulat */
@@ -55,6 +58,10 @@ h1 {
   color: #0f172a;
   margin-bottom: 8px;
 }
+#heading-section img {
+  float: right;
+  margin-left: 16px;
+}
 
 h2 {
   font-size: 24px;
@@ -79,7 +86,7 @@ p {
 
 /* Class selector — pakai titik di depan */
 .highlight {
-  background-color: #5420d9;  /* kuning muda */
+  background-color: #6c56a6;  /* kuning muda */
   color: #f8f3f3;              /* cokelat tua */
   padding: 2px 6px;            /* padding kecil */
   border-radius: 4px;          /* sudut sedikit membulat */
@@ -87,7 +94,7 @@ p {
 
 /* ID selector — pakai pagar di depan */
 #teks-unik {
-  color: #7c3aed;              /* ungu */
+  color: #a91c1e;              /* ungu */
   font-weight: 600;
   font-style: italic;
 }
