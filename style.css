@@ -96,3 +96,19 @@ p {
   color: #0d9488;              /* hijau teal */
   font-weight: 500;
 }
+a {
+  color: #00c896;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #e2e8f0;
+  margin-top: 8px;
+}
