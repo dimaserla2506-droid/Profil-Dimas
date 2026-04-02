@@ -96,19 +96,28 @@ p {
   color: #0d9488;              /* hijau teal */
   font-weight: 500;
 }
+/* =============================================
+  BAGIAN 7 — LINK
+============================================= */
 a {
-  color: #00c896;
+  color: #0d9488;              /* hijau teal */
   text-decoration: none;
   font-weight: 500;
 }
+
 a:hover {
-  color: #0f766e;
-  text-decoration: underline;
+  color: #0f766e;              /* teal lebih gelap saat hover */
+  text-decoration: underline;  /* muncul garis bawah saat hover */
 }
+
+
+/* =============================================
+  BAGIAN 8 — GAMBAR
+============================================= */
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  border: 2px solid #e2e8f0;
+  max-width: 100%;             /* gambar tidak melewati container */
+  height: auto;                /* tinggi otomatis mengikuti lebar */
+  border-radius: 12px;         /* sudut membulat */
+  border: 2px solid #e2e8f0;   /* border abu muda */
   margin-top: 8px;
 }
